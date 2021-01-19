@@ -14,7 +14,8 @@ public Plugin myinfo = {
 	url = "http://www.sourcemod.net/"
 };
 public void OnPluginStart() {
-    RegConsoleCmd("sm_pos", Command_Pos1, "Set position <position>");
+    RegConsoleCmd("sl_pos1", Command_Pos1, "Set first position");
+    RegConsoleCmd("sl_pos2", Command_Pos2, "Set first position");
     RegConsoleCmd("sl_lerp", Command_Lerp, "sm_lerp <seconds>");
     RegConsoleCmd("sl_debug", Command_Debug);
     LoadTranslations("common.phrases.txt");
