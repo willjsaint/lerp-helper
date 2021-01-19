@@ -1,0 +1,7 @@
+.vscode
+addons/
+include/
+scripting/
+spcomp.exe
+compile.exe
+compile.dat
